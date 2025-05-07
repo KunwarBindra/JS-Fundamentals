@@ -4,7 +4,7 @@
 
 // block scoped - what all variables n function can we access inside the block
 
-var a = 100;
+a = 100;
 function abc(param) {
   // higher order function - takes a callback function as argument, also returns a function
   a = 75; //
