@@ -393,7 +393,7 @@ console.log(resultantObj);
 // when u create a variable/function/object in js - js engine by default attaches a hidden object to them that contains certain properties and methods, these come via prototype
 
 const userId = {
-  id: "abc123",
+  id: "abc",
 };
 
 userId.__proto__ = user; // prototypal inheritance
